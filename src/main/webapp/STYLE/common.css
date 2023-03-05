@@ -1,0 +1,58 @@
+/**
+ * 共用
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+@font-face{font-family:'Bitstream Vera Sans Mono';font-style:normal;font-weight:normal;src:url('../FONT/VeraMono.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Bold';font-style:normal;font-weight:bold;src:url('../FONT/VeraMoBd.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Oblique';font-style:italic;font-weight:normal;src:url('../FONT/VeraMoIt.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Bold Oblique';font-style:italic;font-weight:bold;src:url('../FONT/VeraMoBI.ttf') format('truetype')}
+.monospace{font-family:'Bitstream Vera Sans Mono','courier new',monospace}
+.cF:after,.cF:before{display:block;float:none;clear:both;content:' '}
+.fL{float:left}
+.fR{float:right}
+.must:before{content:'*';color:#F00;font-weight:bold}
+.textAlignCenter{text-align:center}
+.textAlignLeft{text-align:left}
+.textAlignRite{text-align:right}
+
+BODY{margin:0;font-size:16px}
+
+HEADER{height:128px}
+HEADER>DIV{margin:0 auto;position:relative;width:980px;height:100%;background-color:#582521}
+A#home{position:absolute;bottom:0;left:0}
+HEADER UL{margin:0;padding:12px 0;border-bottom:2px solid #000;position:absolute;top:0;right:0;list-style-type:none}
+HEADER LI{float:left}
+HEADER A{cursor:default}
+HEADER A[href]{color:#CCC;text-decoration:none;cursor:pointer}
+HEADER A[href]:hover{color:#FFF;font-weight:bold;text-decoration:none;transition:.6s}
+HEADER B{padding:0 6px;font-weight:bold;cursor:default}
+SPAN#shoppingCart{color:#E4951C}
+DIV#gcse{position:absolute;right:0;bottom:0;width:50%}
+
+NAV{height:48px;background-color:#E4951C;box-shadow:0 3px 3px #E4951C}
+NAV>DIV{margin:12px auto;width:980px}
+DIV#nav{margin:0 auto;width:980px}
+DIV#nav>TABLE{border-collapse:collapse;width:100%}
+DIV#nav TD{padding:0;text-align:center}
+DIV#nav A{padding:0 12px;text-decoration:none;transition:.6s}
+DIV#nav A,DIV#nav B{display:inline-block;line-height:48px;color:#FFF}
+DIV#nav A.current,DIV#nav A:hover{background-color:#C22A21}
+DIV#nav A.current{cursor:default}
+
+DIV#booths{width:100%;background-color:#696969;background-color:rgba(105,105,105,.1);background-image:url(/IMG/booths.png)}
+DIV#booths UL{margin:0 auto;padding:0;width:980px;height:119px;list-style-type:none}
+DIV#booths LI{margin-left:4px;float:left}
+DIV#booths LI:first-child{margin-left:0;float:left}
+DIV#booths IMG{border-radius:12px}
+
+FOOTER{background-color:#E4951C}
+FOOTER>DIV{margin:0 auto;width:980px}
+FOOTER TABLE{border:0;width:100%}
+FOOTER TD{text-align:left}
+FOOTER TH{text-align:right}
+FOOTER UL{margin:12px 0;padding:0;list-style-type:none}
+FOOTER H3,FOOTER ADDRESS{color:#FFF;cursor:default}
+FOOTER H3{margin:0;margin-bottom:12px}
+FOOTER A{color:#FFF;text-decoration:none}
+FOOTER LI>A:hover{border-bottom:1px solid}

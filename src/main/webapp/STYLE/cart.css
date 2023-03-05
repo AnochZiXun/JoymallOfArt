@@ -1,0 +1,21 @@
+/**
+ * 我的購物車
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+DIV.store{margin:12px 0;font-family:'cwTeXYen',sans-serif}
+DIV.store>TABLE{border-collapse:separate;border-spacing:6px;width:100%}
+DIV.store CAPTION{border-bottom:1px dashed #000;text-align:left}
+DIV.store CAPTION>H1{margin:0;padding:12px;display:inline-block;color:#FFF;background-color:#79AE3D;cursor:default}
+DIV.store TH{border-bottom:1px solid #000;color:#367DA2;text-align:center}
+DIV.store TD{padding:6px;text-align:center}
+DIV.store TBODY>TR>TH{border-style:none}
+DIV.store TBODY>TR>TD{border-bottom:1px dotted #000}
+DIV.store TFOOT>TR>TD{border-bottom:1px solid #000}
+DIV.store TFOOT>TR>TD[colspan='4']{text-align:right}
+DIV.store A.fa-trash{color:#FF2D21;cursor:pointer}
+DIV.store INPUT.hidden{display:none}
+DIV.store INPUT[name='quantity']{padding:3px;border:1px dotted #000;width:32px;text-align:center}
+DIV.store INPUT[name='quantity']:focus{border-style:solid}
+DIV.store INPUT[type='button'],DIV.store INPUT[type='submit']{padding:6px 12px;border:0;color:#FFF;background-color:#FF2D21;cursor:pointer}
+P#emptyCart{margin:36px;color:#FF5F5E;font-family:'cwTeXYen',sans-serif;font-size:36px;text-align:center}

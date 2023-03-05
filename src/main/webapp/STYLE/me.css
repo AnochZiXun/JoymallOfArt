@@ -1,0 +1,24 @@
+/**
+ * 店家簡介
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+ASIDE{border:1px solid #333;float:left;width:190px}
+ASIDE>A{padding:12px;display:block;overflow:hidden;color:#333;font-family:'cwTeXYen',sans-serif;font-size:24px;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;cursor:default}
+ASIDE>A[href]{cursor:pointer}
+ASIDE>A[href]:hover{font-weight:bold}
+A#aside1{color:#FFF;background-color:#333}
+A#aside2{color:#FFF;background-color:#FF5F5E}
+A#aside3{color:#FFF;background-color:#FE9903}
+ASIDE+DIV{border-top:3px solid #256FB8;float:right;width:783px}
+H1#asideName{margin:0;padding:12px;display:inline-block;color:#FFF;background-color:#79AE3D;font-family:'cwTeXYen',sans-serif;font-size:36px;cursor:default}
+FORM>TABLE{border-collapse:separate;border-spacing:6px;width:100%}
+TABLE.form{margin:0 auto;width:auto;font-family:'cwTeXYen',sans-serif}
+TABLE.form>CAPTION{color:#C82506;font-family:'cwTeXYen',sans-serif;text-align:center}
+TABLE.form>TBODY>TR>TH{padding:6px 0;text-align:right;cursor:default}
+TABLE.form>TBODY>TR>TH:after{content:'：';font-weight:normal}
+TABLE.form>TBODY>TR>TD{padding:6px 0;text-align:left}
+TABLE.form INPUT[type='reset'],INPUT[type='submit']{padding:6px 12px;border:0;border-radius:3px;color:#FFF;font-family:'cwTeXYen',sans-serif;font-size:24px;cursor:pointer;box-shadow:0 3px 3px #808080}
+TABLE.form INPUT[type='reset']:hover,INPUT[type='submit']:hover{font-weight:bold}
+TABLE.form INPUT[type='password'],INPUT[type='text']{padding:6px;border:1px dotted #333}
+TABLE.form INPUT[type='password']:focus,INPUT[type='text']:focus{border-style:solid}

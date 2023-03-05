@@ -1,0 +1,20 @@
+/**
+ * 首頁
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+P.gs{margin:0 0 5px 5px;padding:16px;display:inline-block;color:#FFF;font-weight:bold;box-shadow:3px 3px 3px rgba(0,0,0,.3)}
+DIV#topSales DIV.owl-wrapper-outer{margin-left:5px}
+DIV#recommendations>UL{margin:0;padding:0;list-style-type:none}
+DIV#recommendations LI{margin:0 5px 10px;width:186px;height:186px;background-color:rgba(207,35,43,.3)}
+DIV.gs LI{float:left}
+A.figure{overflow:hidden}
+A.figure>FIGURE{margin:0;position:relative;overflow:hidden}
+/*A.figure FIGCAPTION{position:absolute;top:-100%;width:100%;color:#000;background-color:rgba(255,255,255,.6);transition:.3s}*/
+/*A.figure FIGCAPTION{position:absolute;bottom:0;width:100%;color:#CCC;background-color:rgba(88,37,33,.6);transition:.3s}*/
+A.figure FIGCAPTION{position:absolute;bottom:0;width:100%;color:#CCC;background-color:rgba(205, 42, 31, 0.6);transition:.3s}
+A.figure FIGCAPTION>P{margin:3px 0;line-height:16px;overflow:hidden;font-family:'cwTeXHei',sans-serif;text-align:center;text-overflow:ellipsis;white-space:nowrap}
+A.figure FIGCAPTION>P.price:before{content:'$'}
+/*A.figure:hover FIGCAPTION{top:0}*/
+A.figure:hover FIGCAPTION{color:#FFF;background-color:rgba(88,37,33,.9)}
+A.figure:hover FIGCAPTION{color:#FFF;background-color:rgba(205, 42, 31, 0.9)}

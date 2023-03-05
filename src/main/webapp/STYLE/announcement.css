@@ -1,0 +1,8 @@
+/**
+ * 最新消息
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+ASIDE{float:left;width:192px}
+ASIDE+DIV{border-top:3px solid #256FB8;float:right;width:783px}
+H1#announcements{margin:0;padding:12px;display:inline-block;color:#FFF;background-color:#F15E60;font-family:'cwTeXYen',sans-serif;font-size:36px;cursor:default}

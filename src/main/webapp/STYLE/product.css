@@ -1,0 +1,39 @@
+/**
+ * 商品分類
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+ASIDE{border:1px solid #333;float:left;width:190px}
+ASIDE>A{padding:12px;display:block;overflow:hidden;color:#333;font-family:'cwTeXYen',sans-serif;font-size:24px;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;cursor:default}
+ASIDE>A[href]{cursor:pointer}
+ASIDE>A[href]:hover{font-weight:bold}
+A#aside1{color:#FFF;background-color:#333}
+A#aside2{color:#FFF;background-color:#FF5F5E}
+A#aside3{color:#FFF;background-color:#FE9903}
+ASIDE+DIV{float:right;width:783px}
+DIV#merchandiseTop{border-bottom:3px solid #256FB8}
+DIV#merchandiseTop>DIV{width:389px}
+DIV#lightSliderWrapper UL{margin-bottom:0;padding-left:0;list-style:none outside none}
+DIV#lightSliderWrapper LI{margin-right:6px;display:block;float:left;cursor:pointer}
+DIV#lightSliderWrapper IMG{display:block;max-width:100%;height:auto}
+H1#merchandiseName{margin:0;padding:12px;overflow:hidden;font-family:'cwTeXYen',sans-serif;text-overflow:ellipsis;white-space:nowrap;cursor:default}
+H2#merchandisePrice{margin:0;padding:12px;overflow:hidden;color:#256FB8;font-family:'cwTeXYen',sans-serif;text-overflow:ellipsis;white-space:nowrap;cursor:default}
+H2#merchandisePrice:before{content:'\0024'}
+FORM.ajax TABLE{border-collapse:separate;border-spacing:6px;width:100%}
+FORM.ajax TH{width:50%;text-align:right}
+FORM.ajax TH:after{content:'：'}
+FORM.ajax TH.must:before{content:'*';color:#C00}
+FORM.ajax TD{width:50%;text-align:left}
+FORM.ajax TD[colspan]{width:100%;text-align:center}
+FORM.ajax INPUT#quantity{width:32px;text-align:center}
+FORM.ajax INPUT[type='text'],FORM.ajax SELECT{padding:6px;border:1px dotted}
+FORM.ajax INPUT[type='text']:focus,FORM.ajax SELECT:focus{border-style:solid}
+FORM.ajax INPUT[type='submit']{padding:6px 12px;color:#FFF;border:0;background-color:#FE9903;cursor:pointer}
+DIV#merchandiseHtml>DIV:first-child,DIV#otherMerchandises>DIV:first-child{border-bottom:1px solid #CF232B}
+DIV#merchandiseHtml H3.tab,DIV#otherMerchandises H3.tab{margin:0;padding:12px;display:inline-block;color:#FFF;background-color:#CF232B;font-family:'cwTeXYen',sans-serif;cursor:default}
+A.figure{overflow:hidden}
+A.figure>FIGURE{margin:0;position:relative;overflow:hidden}
+A.figure FIGCAPTION{position:absolute;top:-100%;width:100%;color:#000;background-color:rgba(255,255,255,.6);transition:.3s}
+A.figure FIGCAPTION>P{margin:3px 0;line-height:16px;overflow:hidden;font-family:'cwTeXHei',sans-serif;text-align:center;text-overflow:ellipsis;white-space:nowrap}
+A.figure FIGCAPTION>P.price:before{content:'$'}
+A.figure:hover FIGCAPTION{top:0}

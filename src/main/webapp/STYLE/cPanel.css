@@ -1,0 +1,57 @@
+/**
+ * 控制臺
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+@font-face{font-family:'Bitstream Vera Sans Mono';font-style:normal;font-weight:normal;src:url('../FONT/VeraMono.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Bold';font-style:normal;font-weight:bold;src:url('../FONT/VeraMoBd.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Oblique';font-style:italic;font-weight:normal;src:url('../FONT/VeraMoIt.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Bold Oblique';font-style:italic;font-weight:bold;src:url('../FONT/VeraMoBI.ttf') format('truetype')}
+.monospace{font-family:'Bitstream Vera Sans Mono','courier new',monospace}
+.cF:after,.cF:before{display:inline-block;float:none;clear:both;content:' '}
+.fL{float:left}
+.fR{float:right}
+.must:before{content:'*';color:#F00;font-weight:bold}
+.textAlignCenter{text-align:center}
+.textAlignLeft{text-align:left}
+.textAlignRite{text-align:right}
+.button,INPUT[type='button'],INPUT[type='reset'],INPUT[type='submit']{padding:3px 6px;border:1px solid;border-color:#CCC #BBB #AAA;border-radius:3px;display:inline-block;line-height:16px;vertical-align:middle;color:#333;font-size:100%;text-decoration:none;cursor:pointer;transition:ease .6s}
+.button:hover,INPUT[type='button']:hover,INPUT[type='reset']:hover,INPUT[type='submit']:hover{border-color:#666 #555 #444;color:#26B3F7;background-color:#333}
+INPUT[type='password'],INPUT[type='text'],SELECT,TEXTAREA{padding:6px;border:1px dotted #333}
+INPUT[type='password']:focus,INPUT[type='text']:focus,SELECT:focus,TEXTAREA:focus{border-style:solid}
+TEXTAREA{width:320px;height:120px;font-family:'bitstream vera sans mono','courier new',monospace;font-size:12px;resize:none}
+
+BODY{background-image:url(/IMG/cPanel.png);font-family:'georgia','新細明體',sans-serif;font-size:14px}
+
+ASIDE{min-width:128px;max-width:256px}
+ASIDE OL{margin:0;padding:0}
+ASIDE OL A{line-height:24px;text-decoration:none}
+ASIDE OL A:hover{border-bottom:1px dotted}
+
+TABLE#cPanel{border-collapse:separate;border-spacing:3px;position:absolute;top:32px;left:0}
+TABLE#cPanel>TBODY>TR>TD{padding:3px;vertical-align:top}
+
+FORM#pagination INPUT[name='s']{width:16px;text-align:center}
+TABLE.list{border-collapse:collapse;border-spacing:3px;min-width:480px;cursor:default}
+TABLE.list>THEAD TR{color:#FFF;background-color:#0972A5}
+TABLE.list TH,TABLE.list TD{padding:3px 6px;border:1px solid #333;line-height:16px;vertical-align:middle}
+TABLE.list TD{overflow:hidden;white-space:nowrap}
+TABLE.list TR.even TD{background-color:rgba(9,114,165,.1)}
+TABLE.list A.fa{color:#333;text-decoration:none}
+TABLE.list A.fa:hover{color:#0972A5}
+
+FORM>FIELDSET{border:1px solid #0972A5;display:inline-block}
+TABLE.form CAPTION{color:#C00}
+TABLE.form TH{text-align:right}
+TABLE.form TH:after{content:'：';font-weight:normal}
+
+HEADER{position:absolute;top:0;right:0;left:0;height:32px;background-color:rgba(51,51,51,.9)}
+HEADER A{padding:0 6px}
+HEADER A,HEADER SPAN{display:inline-block;line-height:32px;color:#FFF;cursor:default}
+HEADER A[href]{text-decoration:none}
+HEADER A[href]:hover,HEADER A[href]:hover>SPAN{font-weight:bold;cursor:pointer}
+DIV#me>UL{margin:0;padding:0;display:none;position:absolute;top:32px;right:0;list-style-type:none;background-color:rgba(51,51,51,.9)}
+DIV#me:hover{font-weight:bold}
+DIV#me:hover>UL{display:inline-block}
+DIV#me UL A{display:block;font-weight:normal}
+DIV#me UL A:hover{font-weight:bold}

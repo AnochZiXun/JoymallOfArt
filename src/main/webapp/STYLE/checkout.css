@@ -1,0 +1,24 @@
+/**
+ * 結帳付款
+ *
+ * @author:	P-C Lin (a.k.a 高科技黑手)
+ */
+DIV#booth{margin:12px 0;font-family:'cwTeXYen',sans-serif}
+TABLE#store,TABLE#checkout{border-collapse:separate;border-spacing:6px;width:100%}
+TABLE#store>CAPTION{border-bottom:1px dashed #000;text-align:left}
+TABLE#store>CAPTION>H1{margin:0;padding:12px;display:inline-block;color:#FFF;background-color:#79AE3D;cursor:default}
+TABLE#store>THEAD>TR>TH{border-bottom:1px solid #000;color:#367DA2;text-align:center}
+TABLE#store TD{padding:6px;text-align:center}
+TABLE#store>TBODY>TR>TH{border-style:none}
+TABLE#store>TBODY>TR>TD{border-bottom:1px dotted #000}
+TABLE#store>TFOOT>TR>TD{border-bottom:1px solid #000}
+TABLE#store>TFOOT>TR>TD[colspan='4']{text-align:right}
+TABLE#store INPUT[type='button']{padding:6px 12px;border:0;color:#FFF;background-color:#FF2D21;cursor:pointer}
+TABLE#checkout CAPTION{color:#367DA2;font-weight:bold}
+TABLE#checkout TH:before{content:'*';color:#C00}
+TABLE#checkout TH{padding:6px;width:50%;text-align:right}
+TABLE#checkout TH:after{content:'：'}
+TABLE#checkout TD{padding:6px;width:50%;text-align:left}
+TABLE#checkout INPUT[type='text']{padding:6px;border:1px dotted #000}
+TABLE#checkout INPUT[type='text']:focus{border-style:solid}
+P#emptyCart{margin:36px;color:#FF5F5E;font-family:'cwTeXYen',sans-serif;font-size:36px;text-align:center}
